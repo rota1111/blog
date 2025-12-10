@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 
 export default defineConfig({
-	site: "https://rota1111.vip/",
+	site: "https://rota1111.github.io/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
