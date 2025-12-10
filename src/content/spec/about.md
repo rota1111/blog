@@ -1,5 +1,5 @@
 # About
-Hi, I'm Rota. A semi-retired CTF player with interests in reading and running.
+Hi, I'm Rota. A semi-retired ctfer with interests in reading and running.
 
 
 <!-- ::github{repo="saicaca/fuwari"} -->
