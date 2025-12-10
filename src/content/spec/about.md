@@ -1,8 +1,8 @@
 # About Me
 
-Hi 👋 I'm **Rota**.
+Hi 👋 I'm **rota**.
 
-A semi-retired **CTFer**
+A semi-retired **ctfer**
 
 ## Interests
 
