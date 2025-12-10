@@ -1,3 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 定义自定义组件类 */
+@layer components {
+  .link {
+    @apply underline text-[var(--primary)] decoration-[var(--link-underline)] 
+           decoration-1 decoration-dashed underline-offset-4;
+  }
+
+  .btn-regular-dark {
+    @apply bg-black text-white hover:bg-gray-800;
+  }
+
+  .btn-plain-bg-hover {
+    @apply bg-white hover:bg-gray-100;
+  }
+}
+
+/* Markdown 样式 */
 .custom-md {
     h1 {
         @apply text-3xl;
@@ -20,8 +41,7 @@
     }
 
     a:not(.no-styling) {
-        @apply relative bg-none link font-medium text-[var(--primary)]
-        underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
+        @apply relative bg-none font-medium link; /* 已用自定义 link 类 */
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: inline-block;
@@ -74,13 +94,13 @@
         @apply opacity-100 fill-white dark:fill-white/75;
     }
     .copy-btn.success .copy-icon {
-        @apply opacity-0 fill-[var(--deep-text)]
+        @apply opacity-0 fill-[var(--deep-text)];
     }
     .copy-btn .success-icon {
         @apply opacity-0 fill-white;
     }
     .copy-btn.success .success-icon {
-        @apply opacity-100
+        @apply opacity-100;
     }
 
     .expressive-code {
@@ -89,7 +109,6 @@
             @apply bg-[var(--codeblock-selection)];
         }
     }
-
 
     ul, ol {
         li::marker {
@@ -109,7 +128,6 @@
         p:before, p:after {
             @apply content-none;
         }
-
     }
 
     .katex-display-container {
@@ -117,5 +135,4 @@
         overflow-x: auto;
         margin: 1em 0;
     }
-    
 }
