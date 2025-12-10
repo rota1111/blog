@@ -1,5 +1,6 @@
 # About
-This is the blog site for [Rota](https://github.com/rota1111).
+Hi, I'm Rota. A semi-retired CTF player with interests in reading and running.
+
 
 <!-- ::github{repo="saicaca/fuwari"} -->
 
