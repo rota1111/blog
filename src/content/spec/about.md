@@ -1,10 +1,12 @@
-# About
-Hi, I'm Rota. A semi-retired ctfer with interests in reading and running.
+# About Me
 
+Hi 👋 I'm **Rota**.
 
-<!-- ::github{repo="saicaca/fuwari"} -->
+A semi-retired **CTFer**
 
-<!-- > ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty) -->
+## Interests
+
+- 📚 **Reading**  
+  我与我周旋久，宁做我
+- 🏃 **Running**  
+  纵有疾风起，人生不言弃
