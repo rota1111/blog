@@ -78,7 +78,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Mail",
 			icon: "material-symbols:mail",
-			url: "mailto:1917984758@qq.com"
+			url: "mailto:1917984758@qq.com",
 		},
 	],
 };
