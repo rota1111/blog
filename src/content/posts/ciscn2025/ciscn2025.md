@@ -4,7 +4,7 @@ published: 2025-12-31
 description: ''
 image: ''
 tags: [Crypto]
-category: wp
+category: 'wp'
 draft: false 
 lang: ''
 ---
@@ -132,6 +132,7 @@ print(f"[+] Ciphertext = {pow(flag,e,n1)}")
 其实就是Pollard’s p-1分解算法。我的思路就是不断用这个算法，然后减小规模，直到分解完所有素数：
 ```python
 from gmpy2 import gcd
+from Crypto.Util.number import *
 n1 = ...
 n = ...
 c = ...

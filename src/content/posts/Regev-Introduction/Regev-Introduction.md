@@ -2,7 +2,7 @@
 title: Regev-Introduction
 published: 2025-08-12
 tags: [Crypto, Lattice]
-category: learn
+category: 'learn'
 draft: False
 ---
 
